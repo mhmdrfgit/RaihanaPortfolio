@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+
+
+        <!-- fontawesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+
+    <body>
+        
+        <!-- header section starts here -->
+        <header>
+            <div class="user">
+                <img src="img/profile_pic.png" alt="">
+                <h3 class="name">Raihana PA</h3>
+                <p class="post">Python developer</p>
+
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+        <!-- header section ends  here -->
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <!-- Home section -->
+
+        <section class="home" id="home">
+
+            <h3>Hi There,</h3>
+            <h1>I'M <span>RAIHANA PA</span></h1>
+            <p>Python developer with 4 years of IT experience. Expertise in Django web framework</p>
+            <a href="#about">
+                <button class="btn">About me <i class="fas fa-user"></i></button>
+            </a>
+        </section>
+
+        <!-- Home section ends here-->
+
+        <!--about section starts here-->
+
+        <section class="about" id="about">
+            <h1 class="heading"><span>About</span> me</h1>
+
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name :</span>Raihana PA</h3>
+                    <h3><span>Qualification :</span>BE Computer Science and Engineering</h3>
+                    <h3><span>Post :</span>Python developer</h3>
+                    <h3><span>Language :</span>Malayalam</h3>
+                    <a href="files/Raihana_resume.pdf"><button class="btn">Download CV <i class="fas fa-download"></i> </button></a>
+                </div>
+
+                <div class="counter">
+                    <div class="box">
+                        <span>4</span>
+                        <h3>Years of experience in Python</h3>
+                    </div>
+                    <div class="box">
+                        <span>2</span>
+                        <h3>Years of experience in Django</h3>
+                    </div>
+                    <div class="box">
+                        <span>3+</span>
+                        <h3>Projects with clients from different sectors</h3>
+                    </div>
+                    <div class="box">
+                        <span>1+</span>
+                        <h3>Years of experience in C++</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--about section ends here-->
+
+        <!--Education section starts here-->
+
+        <section class="education" id="education">
+            <h1 class="heading"> My <span>Education</span></h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2018</span>
+                    <h3>Computer Science and Engineering</h3>
+                    <p>Graduated from Dhaanish Ahmed Institute of Technology, Coimbatore
+                    with first class scoring 8.27 cgpa. 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2014</span>
+                    <h3>Higher Secondary Education      </h3>
+                    <p>Completed my Higher Secondary Education from CGHSS, Vadakkenchery
+                    with 86%. 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2012</span>
+                    <h3>Secondary Education(10th std)    </h3>
+                    <p>Completed my schooling at Jawahar Navodaya Vidyalaya, Palakkad with 
+                    cgpa of 9.2.
+                    </p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--Education section ends here-->
+
+        <!--Portfolio section starts here-->
+
+        <section class="portfolio" id="portfolio">
+
+            <h1 class="heading"> My <span>Portfolio</span></h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/personal_project.png" alt="" onclick="show_pproject()">
+                    <div id="project">Personal Projects</div>
+                </div>
+                <div class="box">
+                    <img src="img/company_project.png" alt="" onclick="show_cproject()">
+                    <div id="project">Company Projects</div>
+                </div>
+                <div class="box">
+                    <img src="img/art_works.png" alt="" onclick="show_artwork()">
+                    <div id="project">Art Works</div>
+                </div>
+            </div>
+
+            <div class="box-container" style="color: #fff;">
+                <div class="desc-box">
+                    <div id="p-project" style="display:none">
+                        <h2>Personal Projects</h2><br/>
+                        <ul>
+                            <li><h3>Ecommerce Application</h3>
+                                <p>Im currently working on ecommerece application using django,html,css,jquery etc
+                                    where a user can view and select the mobile, add to wishlist/cart and to 
+                                    check out from cart using a payment gateway-razorpay<span><a href="#">click here</a></span> to get
+                                the code </p></li><br/>
+
+                            <li><h3>Blog with django</h3>
+                                <p>Got a chance to develop a simple blog project using django with simple ui.
+                                    I have used html,css,bootstrap,jquery,django as tech stack.
+                                    <span><a href="#">click here</a></span> to get the code </p></li>
+                                </p></li><br/>
+
+                            <li><h3>Snake game enhanced with multi player option</h3>
+                                <p>I was trying different python packages like pygame, so came up with a 
+                                in Snake game, that is multi-player option.<span><a href="#">click here</a></span> to get
+                                the code </p></li>
+
+                        </ul>
+
+                    </div>
+                    <div id="c-project" style="display:none">
+                        <h2>Recent Company Projects</h2><br/>
+                    <ul>
+                        <h3>Tech Analyst - Senior Python developer</h3>
+                            <ul>
+                            <li>Worked as a Senior Python developer managing a 4 member team
+                            Design user stories and assigns to the team based on the expertise of the team
+                            members</li>
+                            <li>Schedule the status meetings to discuss about the action items, 
+                            stoppages, solutions and to track the progress of the team to meet the deadline</li>
+                            <li>Implemented the Python code to handle data from different databases like
+                            Oracle, MSSQL using the associated Python packages</li>
+                            <li>Created Python code to run the shell scripts and to connect to Hbase and fetch
+                            the data from Hbase tables in linux environment</li>
+                            <li>Generated different summary reports after validation of different files such as
+                            Excel,CSV,DAT using Python Pandas and file handling modules</li></ul><br/>
+
+                        <h3>Senior Systems Engineer-Python developer</h3>
+                            <ul>
+                            <li>Worked on a web based Automation tool which is used to perform data
+                            validations in ETL migration and big data projects</li>
+                            <li>Developed views and models with Python Django framework for the back end</li>
+                            <li>Created APIS, database model and views utilization python in order to build
+                            responsive application</li>
+                            <li>Handled the complex queries in Django</li>
+                            <li>Queried MYSQL database queries from Python using Python-MYSQL Connector
+                            and MYSQL DB package to retrieve information</li>
+                            <li>Queried Oracle database queries from Python using Python-Oracle Connector
+                            and Oracle DB package to retrieve information</li>
+                            <li>Gathered the requirements directly from the client with frequent status calls and
+                            requirement gathering sessions</li>
+                            </ul>
+
+                    </ul>
+                    </div>
+
+                    <div id="artwork" style="display:none">
+                        <h2>Art Works</h2><br/>
+                        <ul>
+                            <li><h3>Digital and traditional Art</h3>
+                                <p>Im an artist, I used to create memories on paper and digital media by
+                                painting beautiful paintings,like landscapes,cityscape,nature,portraits etc
+                                you can enjoy my paintings on my 
+                                <span><a href="#">instagram page</a></span></p></li>
+
+                            <li><h3>Crafts</h3>
+                                <p>Im always excited to create beautiful things from different materials,such as
+                                    greeting cards,flowers, like so many art pieces.
+                                    I have a <span><a href="#">youtube channel</a></span> where I have showcased 
+                                    some of my works like personalised gifts.
+                                </p></li>
+                            <li><h3>Digital prints</h3>
+                                <p>
+                                    I used to design wedding cards,greeting cards, portraits, brochure,flyer etc
+                                </p></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--Portfolio section ends here-->
+
+
+
+
+        <!--Contact section starts here-->
+
+        <section class="contact" id="contact">
+
+            <h1 class="heading"><span> Contact </span>Me</h1>
+            
+            <div class="row">
+
+                <div class="content">
+                    <h3 class="title"> Contact Info</h3>
+
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i>raihanapa307@gmail.com</h3>
+                        <h3><i class="fas fa-phone"></i>+971 54 363 8166</h3>
+                        <h3><i class="fas fa-map-marker-alt"></i>Sharjah,UAE</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Contact section ends here-->
+        
+
+
+
+
+        <!-- jquery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+        <!-- Custom js file -->
+        <script src="js/script.js"></script>
+    
+    </body>
+</html>
